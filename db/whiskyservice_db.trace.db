@@ -1,0 +1,12 @@
+2022-01-26 14:24:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "(1, 6, 7)"; SQL statement:
+select whisky0_.id as id1_1_, whisky0_.age as age2_1_, whisky0_.distillery_id as distille5_1_, whisky0_.name as name3_1_, whisky0_.year as year4_1_ from whiskies whisky0_ where whisky0_.distillery_id=(? , ? , ?) [22018-197]
+2022-01-26 14:24:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "(3, 4, 13)"; SQL statement:
+select whisky0_.id as id1_1_, whisky0_.age as age2_1_, whisky0_.distillery_id as distille5_1_, whisky0_.name as name3_1_, whisky0_.year as year4_1_ from whiskies whisky0_ where whisky0_.distillery_id=(? , ? , ?) [22018-197]
+2022-01-26 14:24:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "(2, 8)"; SQL statement:
+select whisky0_.id as id1_1_, whisky0_.age as age2_1_, whisky0_.distillery_id as distille5_1_, whisky0_.name as name3_1_, whisky0_.year as year4_1_ from whiskies whisky0_ where whisky0_.distillery_id=(? , ?) [22018-197]
+2022-01-26 14:25:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "(2, 8)"; SQL statement:
+select whisky0_.id as id1_1_, whisky0_.age as age2_1_, whisky0_.distillery_id as distille5_1_, whisky0_.name as name3_1_, whisky0_.year as year4_1_ from whiskies whisky0_ where whisky0_.distillery_id=(? , ?) [22018-197]
